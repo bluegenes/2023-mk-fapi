@@ -1,0 +1,13 @@
+# mastiff testing environment
+name: mastiff
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python=3.9 
+  - sourmash>=4.8.2,<5
+  - urllib3
+  - uvicorn
+  - fastapi
+  - python-multipart
